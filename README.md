@@ -12,4 +12,4 @@ Thank you for using Crusoe Cloud!
 - `sudo apt update`
 - `sudo apt install crusoe`
 
-If you are someone is ultra keen on verifying the authenticity of our releases, our public gpg key is located at signing/public.key, and we include a signature of checksums.txt `checksums.txt.sig` as an asset with each of our releases.
+If you are someone who is ultra keen on verifying the authenticity of our releases, our public gpg key is located at signing/public.key, and we include a signature of checksums.txt `checksums.txt.sig` as an asset with each of our releases.
