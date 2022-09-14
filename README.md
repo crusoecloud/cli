@@ -8,7 +8,8 @@ Thank you for using Crusoe Cloud!
 `brew install crusoecloud/cli/crusoe`
 
 ## To install Crusoe Cloud cli with apt:
-- `echo deb https://apt.fury.io/crusoe/ * *" > /etc/apt/sources.list.d/fury.list`
-- `curl https://apt.fury.io/crusoe/gpg.key | sudo apt-key add -`
+- `echo "deb [trusted=yes] https://apt.fury.io/crusoe/ * *" > /etc/apt/sources.list.d/fury.list`
 - `sudo apt update`
 - `sudo apt install crusoe`
+
+If you are someone is ultra keen on verifying the authenticity of our releases, our public gpg key is located at signing/public.key, and we include a signature of checksums.txt `checksums.txt.sig` as an asset with each of our releases.
